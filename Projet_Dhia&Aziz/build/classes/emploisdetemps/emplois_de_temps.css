@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 nov. 2023, 20:50:56
+    Author     : boubs
+*/
+.emplois_de_temps {
+    -fx-background-radius: 6;
+    
+}
+.emplois_de_temps1 {
+    -fx-background-radius: 10;
+    
+}
+.ICON {
+    -fx-background-image: url('annuler.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain; /* ou cover, selon l'effet souhaité */
+    /* Autres propriétés CSS si nécessaire */
+}
+

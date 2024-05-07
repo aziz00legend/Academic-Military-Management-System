@@ -1,0 +1,51 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 nov. 2023, 13:16:50
+    Author     : boubs
+*/
+
+.sidebar{
+    -fx-background-color: #2262C6;
+    -fx-background-radius: 50px 50px 50px 50px;
+}
+.labbtn{
+    -fx-text-fill: #2262C6;
+    -fx-background-color: #FEFFFD;
+    -fx-background-radius: 50px;
+}
+.sidebar-btn{
+    -fx-background-color: transparent;
+}
+.sidebar-btn-text{
+    -fx-text-fill: #A2BEE8;
+}
+.sidebar-btn:hover .sidebar-btn-text{
+    -fx-text-fill: #7AA2E7;
+}
+.ICON {
+    -fx-background-image: url('annuler.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain; /* ou cover, selon l'effet souhaité */
+    /* Autres propriétés CSS si nécessaire */
+}
+.ICON1 {
+    -fx-background-image: url('pause-button.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain; /* ou cover, selon l'effet souhaité */
+    /* Autres propriétés CSS si nécessaire */
+}
+.ICON2 {
+    -fx-background-image: url('play.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain; /* ou cover, selon l'effet souhaité */
+    /* Autres propriétés CSS si nécessaire */
+}
+.ICON3 {
+    -fx-background-image: url('redo.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain; /* ou cover, selon l'effet souhaité */
+    /* Autres propriétés CSS si nécessaire */
+}

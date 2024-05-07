@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 nov. 2023, 13:16:50
+    Author     : boubs
+*/
+.text-field {
+    -fx-text-fill: white; 
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar{
+    -fx-background-color: #2262C6;
+    -fx-background-radius: 0px 50px 0px 0px;
+}
+.sidebar1{
+    -fx-background-color:  #964B00
+;
+    -fx-background-radius: 0px 0px  50px 50px;
+}
+.sidebar2{
+    -fx-background-color:  #964B00
+;
+    -fx-background-radius: 0px 5px  0px 0px;
+}
+.sidebar3{
+    
+    -fx-background-radius: 0px 50px  50px 50px;
+}
+.c1
+{
+    -fx-background-color:   #4D4D4D;
+}
+
+.text-input {
+ -fx-background-color:   rgba(0,0,0,0);
+  -fx-border-width:   0 0 1 0;
+   -fx-border-color:   #FFFFFF;
+}
+
+.ICON {
+    -fx-background-image: url('annuler.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain; 
+}
+.ICON1 {
+    -fx-background-image: url('grunge-distressed-texture-wallpaper-background_255319-1035.jpg');
+    -fx-background-repeat: repeat;
+    -fx-background-size: contain; 
+}
+.ICON2 {
+    -fx-background-image: url('1.jpg');
+    -fx-background-size: cover; 
+    -fx-background-size: contain; 
+}
+
+.c3
+{
+  -fx-background-color:   #cecbbb ; 
+}
+
+.button
+{
+  -fx-background-color:   #242551  ;
+   -fx-background-radius: 30;
+}
+
+.labbtn{
+    -fx-text-fill: #2262C6;
+    -fx-background-color: #FEFFFD;
+    -fx-background-radius: 50px;
+}
+.sidebar-btn{
+    -fx-background-color: transparent;
+}
+.sidebar-btn-text{
+    -fx-text-fill: #A2BEE8;
+}
+.sidebar-btn:hover .sidebar-btn-text{
+    -fx-text-fill: #7AA2E7;
+}

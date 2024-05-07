@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="etd1" prefHeight="523.0" prefWidth="707.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CRUD.GroupeAdminController">
+
+
+    <children>
+      <Text fill="#4d4d4d" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion Des Groupes " wrappingWidth="294.53668212890625">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="652.0" layoutY="10.0" mnemonicParsing="false" onAction="#logout" prefHeight="34.0" prefWidth="44.0" style="-fx-background-color: white;" styleClass="ICON" stylesheets="@emplois.css" />
+      <Pane layoutY="52.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: #4d4d4d;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <TableView fx:id="Table" layoutX="181.0" layoutY="78.0" prefHeight="434.0" prefWidth="514.0" styleClass="emplois" stylesheets="@emplois.css">
+        <columns>
+          <TableColumn fx:id="nom" prefWidth="175.99998474121094" text="NOM" />
+            <TableColumn fx:id="number" minWidth="9.60003662109375" prefWidth="161.59991455078125" text="Number etudiuant" />
+            <TableColumn fx:id="delegue" prefWidth="176.80010986328125" text="numero de classe" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutX="6.0" layoutY="78.0" prefHeight="176.0" prefWidth="164.0" style="-fx-background-color: #4D4D4d;" styleClass="grid2" stylesheets="@emplois.css">
+         <children>
+            <TextField fx:id="INP1" layoutX="8.0" layoutY="14.0" promptText="ID_STAGE" styleClass="areatext" stylesheets="@emplois.css" text="Number Groupe Prepa">
+               <padding>
+                  <Insets bottom="10.0" top="5.0" />
+               </padding></TextField>
+            <TextField fx:id="INP2" layoutX="8.0" layoutY="61.0" promptText="Nom" styleClass="areatext" text="Number Groupe Sante">
+               <padding>
+                  <Insets bottom="10.0" top="5.0" />
+               </padding></TextField>
+            <Button fx:id="fill" layoutX="73.0" layoutY="125.0" minWidth="36.0" mnemonicParsing="false" onAction="#fill" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: GREEN;" text="FILL" textFill="#f4ecec" />
+            <ImageView fitHeight="31.0" fitWidth="41.0" layoutX="31.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sign_10099497.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="17.0" layoutY="247.0" opacity="0.81" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@téléchargement-removebg-preview.png" />
+         </image>
+         <effect>
+            <Glow level="0.4" />
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="6.0" layoutY="399.0" prefHeight="116.0" prefWidth="164.0" style="-fx-background-color: #4D4D4d;" styleClass="grid2" stylesheets="@emplois.css">
+         <children>
+            <Button layoutX="71.0" layoutY="69.0" mnemonicParsing="false" onAction="#UpdateEmploi" style="-fx-background-color: Green;" text="Gérer" textFill="#f4eeee" />
+            <ImageView fitHeight="31.0" fitWidth="41.0" layoutX="23.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Profile/schedule_4322916.png" />
+               </image>
+               <effect>
+                  <Shadow blurType="ONE_PASS_BOX" height="0.0" radius="0.0" width="0.0">
+                     <color>
+                        <Color red="0.35628849267959595" green="0.7052631378173828" blue="0.2690448462963104" />
+                     </color>
+                  </Shadow>
+               </effect>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="26.0" prefHeight="18.0" prefWidth="135.0" text="Gérer emploi du temps" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

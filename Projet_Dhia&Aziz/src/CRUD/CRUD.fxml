@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="etd1" prefHeight="541.0" prefWidth="707.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CRUD.CRUDController">
+
+
+    <children>
+      <Text fill="#4d4d4d" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LES STAGES " wrappingWidth="164.13671875">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="652.0" layoutY="10.0" mnemonicParsing="false" onAction="#logout" prefHeight="34.0" prefWidth="44.0" style="-fx-background-color: white;" styleClass="ICON" stylesheets="@emplois.css" />
+      <Pane layoutY="52.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: #4d4d4d;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <TableView fx:id="Table" layoutX="181.0" layoutY="78.0" prefHeight="434.0" prefWidth="514.0" styleClass="emplois" stylesheets="@emplois.css">
+        <columns>
+          <TableColumn fx:id="id_STAGE" prefWidth="75.0" text="ID_STAGE" />
+          <TableColumn fx:id="nom" prefWidth="141.5999755859375" text="NOM" />
+            <TableColumn fx:id="type" prefWidth="56.79998779296875" text="TYPE" />
+            <TableColumn fx:id="lieu" prefWidth="90.39999389648438" text="LIEU" />
+            <TableColumn fx:id="dated" prefWidth="73.5999755859375" text="DATE_D" />
+            <TableColumn fx:id="datef" prefWidth="78.4000244140625" text="DATE_FIN" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutX="8.0" layoutY="77.0" prefHeight="442.0" prefWidth="164.0" style="-fx-background-color: #4D4D4d;" styleClass="grid2" stylesheets="@emplois.css">
+         <children>
+            <TextField fx:id="INP1" layoutX="8.0" layoutY="14.0" promptText="ID_STAGE" styleClass="areatext" stylesheets="@emplois.css">
+               <padding>
+                  <Insets bottom="10.0" top="5.0" />
+               </padding></TextField>
+            <TextField fx:id="INP2" layoutX="8.0" layoutY="47.0" promptText="Nom" styleClass="areatext">
+               <padding>
+                  <Insets bottom="10.0" top="5.0" />
+               </padding></TextField>
+            <TextField fx:id="INP3" layoutX="8.0" layoutY="82.0" promptText="Type" styleClass="areatext">
+               <padding>
+                  <Insets bottom="10.0" top="5.0" />
+               </padding></TextField>
+            <TextField fx:id="INP4" layoutX="5.0" layoutY="120.0" promptText="Lieu" styleClass="areatext">
+               <padding>
+                  <Insets bottom="10.0" top="5.0" />
+               </padding></TextField>
+            <DatePicker fx:id="DD" layoutX="3.0" layoutY="195.0" prefHeight="26.0" prefWidth="158.0" promptText="DATE_DEBUT" />
+            <DatePicker fx:id="DF" layoutX="4.0" layoutY="244.0" prefHeight="26.0" prefWidth="158.0" promptText="DATE_FIN" />
+            <Button fx:id="ADD" layoutX="71.0" layoutY="288.0" minWidth="36.0" mnemonicParsing="false" onAction="#AjouterEtudiant" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: GREEN;" text="ADD" textFill="#f4ecec" />
+            <ImageView fitHeight="31.0" fitWidth="41.0" layoutX="31.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sign_10099497.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="UPDATE" layoutX="72.0" layoutY="334.0" mnemonicParsing="false" onAction="#UpdateEtudiant" style="-fx-background-color: #FF6600;" text="UPDATE" textFill="#f4eeee" />
+            <ImageView fitHeight="31.0" fitWidth="41.0" layoutX="32.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@exchange_9538562.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="DELETE" layoutX="73.0" layoutY="381.0" mnemonicParsing="false" onAction="#supprimerEtudiant" prefHeight="26.0" prefWidth="60.0" style="-fx-background-color: RED;" text="DELETE" textFill="#fcf9f9" />
+            <ImageView fitHeight="31.0" fitWidth="41.0" layoutX="29.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@delete_6861362.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
