@@ -24,7 +24,7 @@ The Academic Military Management System is designed to streamline the management
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourus!
+   git clone https://github.com/yourus
 ername/academic-military-management-system.git
 2.Navigate to the project directory:
    cd academic-military-management-system
@@ -33,7 +33,7 @@ ername/academic-military-management-system.git
 5.Run the application using your preferred IDE.
 
 
-[AM2](https://github.com/user-attachments/assets/4736f928-c0ee-4b1e-9eb2-76e87a89564d)
+![AM2](https://github.com/user-attachments/assets/4736f928-c0ee-4b1e-9eb2-76e87a89564d)
 ![AM1](https://github.com/user-attachments/assets/8a3ebf6e-2d24-4476-9601-c35cc13c932d)
 ![AM4](https://github.com/user-attachments/assets/6c79d2d6-fcb0-45b0-aa30-0252736b33a8)
 ![AM5](https://github.com/user-attachments/assets/a7d66485-ae26-4c11-8db3-d6ffb63562ec)
