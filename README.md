@@ -33,9 +33,4 @@ ername/academic-military-management-system.git
 5.Run the application using your preferred IDE.
 
 
-![AM2](https://github.com/user-attachments/assets/4736f928-c0ee-4b1e-9eb2-76e87a89564d)
-![AM1](https://github.com/user-attachments/assets/8a3ebf6e-2d24-4476-9601-c35cc13c932d)
-![AM4](https://github.com/user-attachments/assets/6c79d2d6-fcb0-45b0-aa30-0252736b33a8)
-![AM5](https://github.com/user-attachments/assets/a7d66485-ae26-4c11-8db3-d6ffb63562ec)
-![AM6](https://github.com/user-attachments/assets/464691da-6efc-4773-b1d8-d3a6b11c31b4)
-![AM3](https://github.com/user-attachments/assets/a40ce921-f10c-4c5a-a255-36d854941572)
+
