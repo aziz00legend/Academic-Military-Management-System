@@ -69,10 +69,7 @@ The **Academic Military Management System** facilitates the management of academ
 
 3. **Database Setup:**
    - Ensure MySQL is installed and running.
-   - Import the provided SQL scripts to set up the database:
-   ```bash
-   mysql -u root -p < db_setup.sql
-   ```
+   
 
 4. **Run the Application:**
    - Open the project in your preferred Java IDE.
