@@ -26,6 +26,7 @@ The Academic Military Management System is designed to streamline the management
    ```bash
    git clone https://github.com/yourus
 ername/academic-military-management-system.git
+1. Clone the repository:
 2.Navigate to the project directory:
    cd academic-military-management-system
 3.Ensure you have MySQL installed and running.
